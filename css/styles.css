@@ -1,0 +1,256 @@
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.img-brand {
+  height: 2.75rem;
+}
+body{
+  background-color: #359981;
+}
+.bg-aqua-green {
+  background-color: #359981;
+}
+.bg-btn-aqua-green {
+  background-color: #132D46;
+  color: #ffff;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  border-radius: 1px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.bg-btn-aqua-green:hover {
+  background-color: #359981;
+  color: #ffffff;
+  border-color: #359981;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.navbar-custom-height {
+  height: 100px;
+}
+.custom-padding {
+  padding: 10px 20px;
+}
+.square-button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 2px;
+}
+.bg-btn-img-aqua-green {
+  background-color: #132D46;
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 1px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.bg-back-body-green {
+  background-color: #132D46;
+  height: 30px;
+}
+.bg-back-body-yellow {
+  background-color: #f6d05b;
+  height: 30px;
+}
+.carousel-caption-top {
+  top: 150px;
+  bottom: auto;
+  transform: translateY(0);
+}
+
+.line-data {
+  color: #359981;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+.line-data-medium{
+  color: #132D46;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+}
+@media (min-width: 768px) {
+  .container-font {
+      color: #F6D13B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .parrafo{
+      color: #ffff;
+      font-family: 'Lato', sans-serif;
+      font-size: 1em;
+      padding: 30px 300px ;
+      text-align: center;
+  }
+  .subida{
+    margin-top: -80px;
+  }
+}
+@media (max-width: 768px) {
+  .container-font {
+      color: #F6D13B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .parrafo{
+      color: #ffff;
+      font-family: 'Lato', sans-serif;
+      font-size: 1em;
+      padding: 30px 50px ;
+      text-align: center;
+  }
+  .subida{
+    margin-top: 0px;
+  }
+}
+.subtitle {
+  color: #F6D13B;
+  background-color: #359981;
+  padding: 10px 80px;
+  border-radius: 10px;
+  text-align: center;
+}
+.line-adopta {
+  background-color: #F6D13B;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000; 
+  font-weight: bold;
+  font-size: 1.5em; 
+  background-image: repeating-linear-gradient(
+      to right,
+      #F6D13B 0,
+      #F6D13B 20px,
+      #F6D13B 20px,
+      #F6D13B 40px
+  );
+  background-size: 100px 50px;
+  background-repeat: repeat;
+  position: relative;
+}
+.line-adopta::before {
+  content: "ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA";
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+}
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+}
+.overlay-title {
+  color: #f1ce5c ;
+  background-color: #359981;
+  padding: 10px 80px;
+  border-radius: 10px;
+  margin: 50px;  
+  text-align: center;
+}
+.donaciones {
+  color: #132D46;
+  background-color: #F6D13B;
+  padding: 10px 150px;
+  border-radius: 10px;
+  margin: 50px;  
+}
+.overlay-subtitle {
+  color: #132D46;
+  background-color: #359981;
+  padding: 10px 80px;
+  border-radius: 10px;
+  margin: 50px;
+  border: solid 1px #ffff;
+  text-align: center;
+}
+.overlay-content-parrafo {
+  color: #ffff;
+  background-color: #0ba69e;
+  padding: 50px 50px;
+  border-radius: 30px;
+  text-align: justify;
+  border: solid 1px #ffff;
+  opacity: 0.7;
+  font-family: parrafo;
+  font-size: 18px;
+}
+.abajo{
+  background-color: #132D46;
+}
+section#contact {
+  background-color: #132D46;
+  background-image: url("../assets/img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#team {
+  background-color: #132D46;
+  background-image: url("../img/traje.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section#black {
+  background-color: #132D46;
+  background-image: url("../img/negrito.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section#info {
+  background-color: #132D46;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section#donacion {
+  background-color: #359981;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
