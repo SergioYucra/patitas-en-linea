@@ -254,3 +254,19 @@ section#donacion {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+
+/* styles page 2 */
+
+section#mascotas {
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.subtitle-mascotas {
+  color: #F6D13B;
+  background-color: #359981;
+  padding: 10px 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+
