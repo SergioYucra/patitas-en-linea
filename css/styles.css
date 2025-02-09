@@ -88,42 +88,7 @@ body{
   font-weight: 300;
   font-size: 2em;
 }
-@media (min-width: 768px) {
-  .container-font {
-      color: #F6D13B;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .parrafo{
-      color: #ffff;
-      font-family: 'Lato', sans-serif;
-      font-size: 1em;
-      padding: 30px 300px ;
-      text-align: center;
-  }
-  .subida{
-    margin-top: -80px;
-  }
-}
-@media (max-width: 768px) {
-  .container-font {
-      color: #F6D13B;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .parrafo{
-      color: #ffff;
-      font-family: 'Lato', sans-serif;
-      font-size: 1em;
-      padding: 30px 50px ;
-      text-align: center;
-  }
-  .subida{
-    margin-top: 0px;
-  }
-}
+
 .subtitle {
   color: #F6D13B;
   background-color: #359981;
@@ -258,9 +223,23 @@ section#donacion {
 /* styles page 2 */
 
 section#mascotas {
+  background-image: url("../img/fondo.jpg");
   background-color: #132D46;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+}
+section#dogcity {
+  background-image: url("../img/panel.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .subtitle-mascotas {
   color: #F6D13B;
@@ -270,3 +249,112 @@ section#mascotas {
   text-align: center;
 }
 
+.countdown {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+  color: #005f6b;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  font-family: 'DynaPuff', cursive;
+  font-style: italic;
+}
+.countdown div {
+  text-align: center;
+}
+.countdown span {
+  display: block;
+  font-size: 5rem;
+}
+
+.subttitle-footer {
+  color: #F6D13B;
+  padding: 10px 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+section#casoespeciales {
+  background-image: url("../img/fondo.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-with-lines {
+  color: yellow;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  padding: 20px 0;
+}
+
+.title-with-lines::before,
+.title-with-lines::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  width: 25%;
+  border-top: 2px solid #ffff;
+  vertical-align: middle;
+  margin-top: -1px; /* Ajuste para centrar las líneas verticalmente */
+}
+
+.title-with-lines::before {
+  left: 0;
+}
+
+.title-with-lines::after {
+  right: 0;
+}
+
+
+@media (min-width: 768px) {
+  .title-with-lines::before,
+  .title-with-lines::after {
+    width: 25%;
+  }
+  .container-font {
+      color: #F6D13B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .parrafo{
+      color: #ffff;
+      font-family: 'Lato', sans-serif;
+      font-size: 1em;
+      padding: 30px 300px ;
+      text-align: center;
+  }
+  .subida{
+    margin-top: -80px;
+  }
+}
+@media (max-width: 768px) {
+  .title-with-lines::before,
+  .title-with-lines::after {
+    width: 10%;
+  }
+  .container-font {
+      color: #F6D13B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .parrafo{
+      color: #ffff;
+      font-family: 'Lato', sans-serif;
+      font-size: 1em;
+      padding: 30px 50px ;
+      text-align: center;
+  }
+  .subida{
+    margin-top: 0px;
+  }
+}
