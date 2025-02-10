@@ -155,22 +155,7 @@
     </div>
 
     <!-- Footer-->
-    <footer class="footer py-4 abajo">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">
-                    <img src="ico/footer.svg" alt="" height="100px">
-                </div>
-                <div class="col-lg-8 text-lg-end">
-                    <a class="link-light text-decoration-none" href="#!">Terminos legales |</a> 
-                    <a class="link-light text-decoration-none" href="#!">Politicas de privacidad |</a>
-                    <a class="link-light text-decoration-none" href="#!">Cokies |</a>
-                    <a class="link-light text-decoration-none" href="#!">Accesibilidad |</a>
-                    <a class="link-light text-decoration-none" href="#!">Centro de Ayuda</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
@@ -178,6 +163,11 @@
         fetch('layout/navbar.html')
             .then(response => response.text())
             .then(data => document.getElementById('navbar-container').innerHTML = data);
+    </script>
+    <script>
+        fetch('layout/footer.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer-container').innerHTML = data);
     </script>
 </body>
 
