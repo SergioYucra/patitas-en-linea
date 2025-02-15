@@ -285,7 +285,7 @@ section#casoespeciales {
 }
 
 .title-with-lines {
-  color: yellow;
+  color: #F6D13B;
   font-weight: bold;
   text-align: center;
   font-size: 1.5rem;
@@ -361,6 +361,129 @@ section#casoespeciales {
   margin: 10px;
 }
 
+.img-card-container{
+  background: #132D46; 
+}
+.card-image {
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.title-voluntariado{
+  color: #ffff;
+  font-size: 70px;
+}
+.title-paragraph{
+  color: #ffff;
+  font-size: 20px;
+  width: 50%;
+  margin: 20px 0px;
+}
+
+section#page3section1 {
+  background-image: url("../img/portada1page3.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+section#page3section2 {
+  background-image: url("../img/portada2page3.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+section#page3section3 {
+  background-image: url("../img/portada3page3.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.requisitos-title {
+  color: #ffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.requisitos-paragraph {
+  color: #ffff;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+
+.card-requisitos{
+  margin: 50px;
+}
+
+.day-help {
+  color: #F6D13B;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+.title-zone{
+  color: #ffff;
+  font-weight: bold;
+  background-color: #132D46;
+  border-radius: 20px;
+  text-align: center;
+  width: max-content;
+  padding: 0px 50px;
+}
+.title-zone{
+  color: #ffff;
+  font-weight: bold;
+  background-color: #132D46;
+  border-radius: 10px;
+  text-align: center;
+  width: max-content;
+  padding: 0px 50px;
+}
+.title-paragraph{
+  color: #ffff;
+  background-color: #132D46;
+  border-radius: 20px;
+  text-align: center;
+  padding: 50px;
+  border: solid 1px #ffff;
+  width: 70%;
+}
+
+.position-relative {
+  position: relative; 
+}
+
+.img-overlay {
+  position: absolute;
+  top: -50px; 
+  right: -150px;
+  width: 200px; 
+  z-index: 10; 
+  border: solid 1px #ffff;
+  border-radius: 100%;
+}
+
+.bottom-content{
+  background-color: #132D46;
+  width: max-content;
+  color: #ffff;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid 1px #ffff;
+  margin-top: 25%;
+  text-align: center;
+}
+
+.voluntariado-paragraph{
+  color: #ffff;
+  font-size: 20px;
+  width: 50%;
+  margin: 20px 0px;
+}
 
 @media (min-width: 768px) {
   .title-with-lines::before,
@@ -416,5 +539,20 @@ section#casoespeciales {
   .parrafo-central {
       padding: 0px;
   }
-  
+  .title-voluntariado{
+    color: #ffff;
+    font-size: 35px;
+  }
+  .title-paragraph{
+    color: #ffff;
+    font-size: 20px;
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .voluntariado-paragraph{
+    color: #ffff;
+    font-size: 20px;
+    width: 100%;
+    margin: 20px 0px;
+  }
 }
