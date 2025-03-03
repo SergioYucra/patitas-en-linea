@@ -269,6 +269,26 @@ section#dogcity {
   font-size: 5rem;
 }
 
+.requisitopage1 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  color: #F6D13B;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+  display: block;
+  font-size: 4rem;
+}
+.requisitopage1 div {
+  text-align: center;
+}
+.requisitopage1 span {
+  display: block;
+  font-size: 5rem;
+}
+
 .subttitle-footer {
   color: #F6D13B;
   padding: 10px 100px;
@@ -403,6 +423,89 @@ section#page3section3 {
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+section#requisitospage1 {
+  background-image: url("../img/requisitos2.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+section#requisitospage2 {
+  background-image: url("../img/requisitos4.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+section#requisitospage3 {
+  background-image: url("../img/requisitos3.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.title-requisitos{
+  color: #F6D13B;
+  font-size: 50px; 
+  text-align: center;
+}
+.title-requisitos2{
+  color: #ffff;
+  font-size: 5rem; 
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+}
+
+.requisitos-parrafo {
+  color: #ffff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.requisitos-item{
+  color: #ffff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  background-color: #359981;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.requisitos-item-especifico{
+  color: #F6D13B;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.requisitos-item-parrafo{
+  color: #F6D13B;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .requisitos-title {
@@ -554,5 +657,41 @@ section#page3section3 {
     font-size: 20px;
     width: 100%;
     margin: 20px 0px;
+  }
+  .title-requisitos{
+    color: #F6D13B;
+    font-size: 15px; 
+    text-align: center;
+  }
+  .title-requisitos2{
+    color: #ffff;
+    font-size: 1rem; 
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+  }
+  
+  .requisitos-parrafo {
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+  }
+  .requisitos-item{
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    background-color: #359981;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .requisitopage1 {
+    position: relative;
+    color: #F6D13B;
+    font-weight: bold;
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+    font-size: 2rem;
   }
 }
