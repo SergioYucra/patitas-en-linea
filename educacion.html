@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Adopta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <div id="navbar-container"></div>
+    <section class="page-section" id="educacionpage1">
+        <div class="requisitopage1">
+            <h1 class="requisitopage1">CONSEJOS Y</h1>
+            <h1 class="requisitopage1">EDUCACIÓN</h1>
+        </div>
+    </section>
+    <section class="page-section" id="educacionpage2">
+        <div class="container">
+            <br>
+            <h1 class="title-educacion">REQUISITOS PARA SER VOLUNTARIO</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-requisitos text-center">                        
+                        <img src="img/edu1.png" width="70%" alt="">
+                        <h5 class="educacion-title2">ALIMENTACIÓN</h5>
+                        <p class="educacion-paragraph">UNA ALIMENTACIÓN EQUILIBRADA ES ESENCIAL PARA LA SALUD DE PERROS Y GATOS, FORTALECIENDO SU SISTEMA INMUNOLÓGICO, ENERGÍA Y BIENESTAR. ELEGIR COMIDA DE CALIDAD SEGÚN SUS NECESIDADES PREVIENE ENFERMEDADES Y MEJORA SU VIDA.</p>    
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-requisitos text-center">                        
+                        <img src="img/edu2.png" width="70%" alt="">
+                        <h5 class="educacion-title2">ESTERILIZACIÓN</h5>
+                        <p class="educacion-paragraph">LA ESTERILIZACIÓN PREVIENE ENFERMEDADES, REDUCE LA SOBREPOBLACIÓN Y MEJORA EL COMPORTAMIENTO DE PERROS Y GATOS. ADEMÁS, AYUDA A EVITAR ABANDONOS Y PROMUEVE UNA VIDA MÁS SALUDABLE Y LONGEVA PARA LAS MASCOTAS.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-requisitos text-center">
+                        <img src="img/edu3.png" width="70%" alt="">
+                        <h5 class="educacion-title2">PASEO</h5>
+                        <p class="educacion-paragraph">LOS PASEOS SON ESENCIALES PARA LA SALUD FÍSICA Y MENTAL DE PERROS Y GATOS. AYUDAN A LIBERAR ENERGÍA, REDUCIR EL ESTRÉS Y FORTALECER EL VÍNCULO CON SUS DUEÑOS, ADEMÁS DE PREVENIR PROBLEMAS DE COMPORTAMIENTO.</p>
+                    </div>                    
+                </div>
+            </div>   
+        </div>
+    </section>
+    <section class="page-section" id="educacionpage3">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 class="title-educacion">CONSEJOS DEL VETERINARIO</h1>
+                </div>
+            </div> <br>
+            <div class="row">
+                <div class="col-md-4">
+                        <div class="item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/1024px-White_check.svg.png" alt="Check">
+                            <p class="text">Llévalo al veterinario para un chequeo inicial y establecer su historial médico.</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/1024px-White_check.svg.png" alt="Check">
+                            <p class="text">Vacunas y desparasitación: Asegúrate de seguir el esquema recomendado por el veterinario.</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/1024px-White_check.svg.png" alt="Check">
+                            <p class="text">Observa su comportamiento: Cambios en el apetito, diarrea, vómitos o letargo pueden indicar problemas de salud.</p>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/educacionpage3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-section" id="educacionpage4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="img-educacion1">
+                        <img src="img/educacionpage4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="parrafo-educacion1">
+                        <h1 class="subttitle-footer">DATOS CURIOSO</h1>
+                        <p class="parrafo-data">
+                            La agresividad en los perros puede surgir por miedo, territorialidad o falta de socialización. Se manifiesta desde gruñidos hasta ataques, y debe ser manejada con intervención profesional y técnicas de entrenamiento para asegurar la seguridad de todos.
+                        </p>
+                    </div>
+                </div>
+            </div> <br><br>
+            <div class="row">
+                <center>
+                    <p><span class="contacto-data">CONTACTO DIRECTO</span></p>
+                </center>
+            </div> <br><br>
+            <div class="row d-flex justify-content-center align-items-center">
+                <img src="img/qr1.png" alt="" class="img-qr">
+                <img src="img/qr2.png" alt="" class="img-qr">
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <div id="footer-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script>
+        fetch('layout/navbar.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('navbar-container').innerHTML = data);
+    </script>
+    <script>
+        fetch('layout/footer.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer-container').innerHTML = data);
+    </script>
+</body>
+
+</html>

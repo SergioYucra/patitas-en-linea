@@ -39,6 +39,28 @@ body{
   border-radius: 10px;
 }
 
+.bg-btn-gren {
+  background-color: #359981;
+  color: #ffff;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  border-radius: 1px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
+}
+
+.bg-btn-gren:hover {
+  background-color: #359981;
+  color: #ffffff;
+  border-color: #359981;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  width: 300px;
+}
+
 .navbar-custom-height {
   height: 100px;
 }
@@ -459,6 +481,96 @@ section#requisitospage3 {
   display: flex;
   justify-content: center;
 }
+section#educacionpage1 {
+  background-image: url("../img/educacionpage1.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 20px;
+}
+section#educacionpage2 {
+  background-image: url("../img/fondo.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  padding: 20px;
+}
+section#educacionpage3 {
+  background-color: #144d5a;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  padding: 20px;
+}
+section#educacionpage4 {
+  background-color: #0ba69e;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  padding: 20px;
+}
+
+.img-educacion1{
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  border: solid 1px #ffff;
+}
+.parrafo-educacion1{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: solid 1px #ffff;  
+  background-color: #144d5a;
+}
+
+.parrafo-data{
+  color: #ffff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding: 70px;
+  border-radius: 10px;
+  text-align: center;
+}
+.contacto-data{
+  background-color: #144d5a;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  color: #F6D13B;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.img-qr {
+  width: 300px;
+  height: 300px;
+}
+
+section#invitacionpage1 {
+  background-image: url("../img/invitacionPortada.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
 
 .title-requisitos{
   color: #F6D13B;
@@ -468,6 +580,12 @@ section#requisitospage3 {
 .title-requisitos2{
   color: #ffff;
   font-size: 5rem; 
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+}
+.title-educacion{
+  color: #ffff;
+  font-size: 3rem; 
   font-family: 'Bebas Neue', ;
   text-align: center;
 }
@@ -512,11 +630,27 @@ section#requisitospage3 {
   color: #ffff;
   font-family: 'Lato', sans-serif;
 }
+.educacion-title2 {
+  color: #ffff;
+  font-family: 'Bebas Neue', ;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
 
 .requisitos-paragraph {
   color: #ffff;
   font-size: 17px;
   font-family: 'Lato', sans-serif;
+}
+
+.educacion-paragraph {
+  color: #ffff;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+  border: 1px solid #ffff;
+  border-radius: 10px;
 }
 
 .card-requisitos{
@@ -586,6 +720,27 @@ section#requisitospage3 {
   font-size: 20px;
   width: 50%;
   margin: 20px 0px;
+}
+
+.card {
+  background-color: #144d5a; 
+  padding: 20px;
+  max-width: 400px;
+}
+.item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+.item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.text {
+  font-size: 14px;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -693,5 +848,50 @@ section#requisitospage3 {
     font-family: 'Bebas Neue', ;
     text-align: center;
     font-size: 2rem;
+  }
+  .title-educacion{
+    color: #ffff;
+    font-size: 1rem; 
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+  }
+  .educacion-paragraph {
+    color: #ffff;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+  }
+  .educacion-title2 {
+    color: #ffff;
+    font-family: 'Bebas Neue', ;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .img-educacion1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    border: solid 1px #ffff;
+    display: none; 
+  }
+  .parrafo-educacion1{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 1px #ffff;  
+    background-color: #144d5a;
+  }
+  .parrafo-data{
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .img-qr {
+    width: 100px;
+    height: 100px;
   }
 }
