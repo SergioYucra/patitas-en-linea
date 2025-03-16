@@ -572,6 +572,27 @@ section#invitacionpage1 {
   height: 100vh;
 }
 
+section#felicidadespage1 {
+  background-image: url("../img/felicidades.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.title-felicidades{
+  color: #ffff;
+  font-size: 40px;
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+  padding: 70px;
+}
+
 .title-requisitos{
   color: #F6D13B;
   font-size: 50px; 
@@ -893,5 +914,12 @@ section#invitacionpage1 {
   .img-qr {
     width: 100px;
     height: 100px;
+  }
+  .title-felicidades{
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+    padding: 10px;
   }
 }
